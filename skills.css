@@ -1,0 +1,47 @@
+
+body{
+    background-image: url("wall8.jpg");
+    background-size: cover;
+}
+a:hover{
+    background-color: black;
+}
+.box{
+    height: 100%;
+}
+.body{
+    height: 530px;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.6 );
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+.table{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: auto auto auto auto auto;
+}
+.table > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+.table > div:hover{
+    cursor: pointer;
+    background-color: rgb(39, 37, 37);
+}
